@@ -1,0 +1,30 @@
+
+<!-- * screen container -->
+<div class="myScreenContainer" > 
+
+   <div class="myCol"> 
+
+
+    <div *ngIf="isJoined===false" (click)="joinMethode()"
+    class="joinButton shadow-sm backdrop-blur-md 	cursor-pointer	shadow-black		"> 
+        <h2> Enter</h2>
+    </div>
+
+    <div *ngIf="isJoined===true" class="my-box backdrop-blur-md "> 
+       
+         <div class="welcomeTxtArea"> 
+            <h1 id="welcomeTxt" > W E L C O M E </h1>
+
+         </div>
+
+         <h2 class="centerTxt"> this is my first website </h2>
+
+         <div class="technologiesBox centerTxt"> 
+            <h3 class="centerTxt" style="text-align: center;">  <strong style="color: rgb(238, 93, 93); margin: auto;">Technologies :</strong> </h3>
+            <h3> html , css , javascript & angular framework</h3>
+         </div>
+    </div>
+   
+   </div>
+
+</div>

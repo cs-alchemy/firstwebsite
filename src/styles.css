@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { 
+
+
+    height: 100vh;
+    /* background: linear-gradient(to right, #414345, #232526); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   text-transform: capitalize;
+   font-size: 5vw ;
+
+   
+}
+
+h1 { 
+    /* color: white; */
+
+    font-size: 5rem;
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+h2 { 
+    /* color: white; */
+    font-size: 2.5rem;
+    font-family: 'Protest Revolution', sans-serif;
+
+
+}
+
+h3 { 
+    /* color: white; */
+    font-size: 1.5rem;
+    font-family: 'Protest Revolution', sans-serif;
+
+
+}
+
+
+@media (max-width: 640px) {
+
+
+
+    h1 { 
+        /* color: white; */
+    
+        font-size: 3rem;
+        font-family: 'Protest Revolution', sans-serif;
+    }
+    
+    h2 { 
+        /* color: white; */
+        font-size: 1.5rem;
+        font-family: 'Protest Revolution', sans-serif;
+    
+    
+    }
+    
+    h3 { 
+        /* color: white; */
+        font-size: 1.5rem;
+        font-family: 'Protest Revolution', sans-serif;
+    
+    
+    }
+    
+
+}

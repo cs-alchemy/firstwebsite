@@ -1,0 +1,110 @@
+
+.myScreenContainer{ 
+
+    height: 100%;
+    width: 100%;
+
+    background: url(../../assets/bck.jpg);
+
+    background-size: cover;
+
+
+}
+
+.my-box { 
+
+    height:70%;
+    width: 40%;
+
+    /* background: blueviolet; */
+    border: 3px solid white;
+
+
+    border-radius: 20px;
+
+
+    display: flex;
+flex-direction: column;
+
+ justify-content: space-around;
+ align-items: center;
+
+ flex-shrink: 2;
+ 
+}
+
+.myCol { 
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
+}
+
+#welcomeTxt { 
+
+transition: color 300ms ease;  
+
+}
+#welcomeTxt:hover { 
+
+ color: rgb(7, 255, 251);
+}
+
+.joinButton {
+ /* background: rgb(224, 79, 244); */
+ 
+ padding: 10px 20px;
+ border-radius: 20px;
+ transition: all 200ms linear;
+
+}
+.joinButton:hover {
+    /* background: rgb(224, 79, 244); */
+    
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(7, 255, 251);
+    --tw-shadow-color: #00ffee;
+
+
+   
+   }
+.centerTxt{
+
+    text-align: center;
+}
+   
+/* *  override what is neccessary for for phones */
+
+/* *  the other unoverided attributes will be simply inherited */
+/* *  so no need to repeat urself */
+
+@media (max-width: 640px) {
+
+   
+
+ 
+    .myCol { 
+
+ 
+      justify-content:center;
+   
+    }
+.my-box { 
+
+    width : 80%;
+    height:60%;
+
+    margin:0
+}
+ }
+
+
+
